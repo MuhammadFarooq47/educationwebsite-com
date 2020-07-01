@@ -1,0 +1,277 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+body{
+    padding:0;
+    margin:0;
+     width:100%;
+}
+
+a{
+    text-decoration:none;
+    outline:none;
+    color:orange;
+}
+html{
+    scroll-behaivor:smooth;
+    
+    
+    }
+.navigate{
+    background-color:#FFB100;
+    width:100%;
+    height:38px;
+    position:fixed;
+    z-index:5000;
+    overflow:hidden;
+    text-align:center;
+    margin:auto;
+}
+
+header ul{
+    list-style-type:none;
+    width:70%;
+    padding-top:12%;
+    border-right:4px solid orange;
+    background:white;
+    
+}
+
+nav{
+    width:100%;
+    height:82vh;
+    position:fixed;
+    left:-1000%;
+    transition:0.5s ease-out;
+    top:-5%;
+    z-index:100;
+    background:rgba(0,0,0,0.5);
+}
+header li{
+    display:block;
+    color:black;
+    padding-left:5px;
+    font-weight:lighter;
+    text-align:left;
+    transition:0.5s;
+    border-bottom:0.5px black;
+    padding-top:30px;;
+    border-bottom:1px solid orange;
+    height:10vh;
+}
+
+header a{
+    text-decoration:none;
+    outline:none;
+}
+
+ header ul i {
+     padding-right:20px;
+ }
+
+@media screen and (min-width:720px;){
+    header ul{
+        width:20%;
+    }
+    
+}
+ .home h2{
+     padding-left:40px;
+     color:orange;
+     font-style:italic;
+     font-family:cursive;
+     font-size:35px;
+     
+ }
+ 
+ #home{
+     background-image:url(images/education.jpg);
+     width:100%;
+     height:75vh;
+     background-size:cover;
+     background-blend-mode:color;
+     background-repeat:no-repeat ;
+     background-attachment:none;
+     background-position:center;
+     background-color:rgba(0,0,0,0.5);
+     margin-top:-10px;  
+     
+ }
+ 
+ .home p{
+     color:orange;
+     font-family:Arial;
+     font-weight:lighter;
+     font-style:italic;
+     
+ }
+.home button{
+    padding:15px;
+    background:none;
+    color:orange;
+    outline:none;
+    border:2px solid orange;
+    margin:2.5px;
+    transition:2s;
+    font-family:serif;
+    font-style:italic;
+    padding-left:10px;
+
+}
+
+.home button:hover{
+    color:white;
+    background:#FFB700;
+    transition:2s;
+    border:none;
+}
+
+.explore{
+    text-align:center;
+    color:orange;
+    overflow:hidden;
+    overflow-y:hidden;
+    font-family:serif;
+    font-style:italic;
+    width:100%;
+}
+
+.images{
+    width:40%;
+    margin-left:5%;
+    margin-right:5%;
+    float:left;
+    height:25vh;
+    margin-bottom:5%;
+}
+
+.images img{
+    width:100%;
+    height:100%;
+    box-shadow:2px 2px 5px gray;
+}
+   
+.About {
+    color:orange;
+    text-align:center;
+    font-style:italic;
+    font-family:serif;
+    padding-top:30px;
+}
+
+.questions{
+    background-image:url(images/teach.jpg);
+    background-blend-mode:color;
+    background-repeat:no-repeat;
+    background-attachment:none;
+    background-color:rgba(0,0,0,0.5);
+    width:100%;
+    height:75vh;
+    background-position:center;
+    background-size:cover;
+    }
+    
+    
+#services{
+    text-align:center;
+    color:orange;
+}
+
+.text{
+    color:white;
+    text-align:center;
+    font-size:22px;
+    font-weight:bolder;
+    padding-top:1px;
+    font-family:serif;
+    font-style:italic;
+}
+
+.form{
+    background-image:url(https://dl.dropbox.com/s/3gzd0ucu3ow5lgz/pexels-photo-207740.jpeg?raw=1);
+    background-blend-mode:color;
+    background-attachment:none;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color:rgba(0,0,0,0.4);
+    width:100%;
+    height:150vh;
+    
+}
+
+.mail{
+    background-color:rgba(0,0,0,0.7);
+    width:90%;
+    margin-left:5%;
+    border-left:3px solid orange;
+    border-right:3px solid orange;
+    border-radius:0px 25px 0px 25px;
+    height:110vh;
+}
+
+.form input{
+    
+    padding:15px;
+    margin-bottom:10%;
+    background:none;
+    border:none;
+    margin-left:2%;
+    border-bottom:2px solid white;
+    color:white;
+    outline:none;
+    width:50%;
+
+}
+
+.form i{
+    color:white;
+    margin:10%;
+}
+
+.form button{ 
+    color:white;
+    padding:15px;
+    background:none;
+    border:1px solid orange;
+    margin-bottom: 5px;
+    transition:all 0.5s;
+    outline:none;
+    width:40%;
+    font-weight:bolder;
+    border-radius:0px 25px 0px 25px;
+    margin-left:5%;
+}
+
+.icon i {
+    
+    margin-left:2%;
+    
+}
+
+
+footer{
+    background-color:rgba(0,0,0,0.8);
+    height:40vh;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRNXBGHsGC8TxQanjq_Jxk2i_tb8od3TZYRFYHNghk12CTdPdCI");
+    background-attachment:none;
+    background-repeat:none;
+    background-size:cover;
+    background-blend-mode:color;
+    background-position:center;
+    margin-bottom: 5px;
+}
+
+footer p{
+     padding-top:20px;
+    color:white;
+    font-family:Arial;
+    font-weight:lighter;
+}
+
+@media screen and (min-width:1000px){
+    .images img{
+        width:70%;
+        height:100%;
+        box-shadow:2px 2px 5px gray;
+    }
+    
+}
